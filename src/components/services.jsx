@@ -3,184 +3,205 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Technologies</h2>
+          <h2>Education</h2>
           <p>
-            Here are the technologies I use for web and mobile app development.
+            The web and app development certificates that I've earned (so far) are below.
           </p>
         </div>
         <div className='row'>
           <div className='portfolio-items'>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
-                <div className='hover-bg'>
-                  <a data-lightbox-gallery='gallery1'>
+              <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img\certificates\Full Stack.jpg'
+                    
+                    data-lightbox-gallery='gallery1'
+                  >
                     <div className='hover-text'>
-                      <h3>JavaScript</h3>
-                    </div>
+                      <h5>Click to View</h5>
+                      </div>
                     <img
-                      src='\img\technologies\JavaScript.png'
+                      src='img\certificates\full stack.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\Back End.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Adipiscing Elit</h3>
+                      <h5>Click to View</h5>
                     </div>
                     <img
-                      src='img/portfolio/02-small.jpg'
+                      src='img\certificates\back end.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\Front End.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Lorem Ipsum</h3>
+                      <h5>Click to View</h5>
                     </div>
                     <img
-                      src='img/portfolio/03-small.jpg'
+                      src='img\certificates\front end.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\React Native.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Lorem Ipsum</h3>
+                      <h5>Click to View</h5>
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src='img\certificates\react native.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\React.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Adipiscing Elit</h3>
+                      <h5>Click to View</h5>
+                      
                     </div>
                     <img
-                      src='img/portfolio/05-small.jpg'
+                      src='img\certificates\react.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\Bootstrap.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Dolor Sit</h3>
+                      <h5>Click to View</h5>
                     </div>
                     <img
-                      src='img/portfolio/06-small.jpg'
+                      src='img\certificates\bootstrap.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img\certificates\Fundamentals.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Dolor Sit</h3>
+                      <h5>Click to View</h5>
                     </div>
                     <img
-                      src='img/portfolio/07-small.jpg'
+                      src='img\certificates\fundamentals.png'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/08-large.jpg'
+                    
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h5>Lorem Ipsum</h5>
+                    </div>
+                    <img
+                      src='img/certificates/certificate.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
             </div>
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
-
+                  {' '}
                   <a
+                    href='img/portfolio/09-large.jpg'
+                    
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Lorem Ipsum</h3>
+                      <h5>Adipiscing Elit</h5>
                     </div>
                     <img
-                      src='img/portfolio/08-small.jpg'
+                      src='img/certificates/certificate.jpg'
                       className='img-responsive'
                       alt='Project Title'
-                    />
-                  </a>
+                    />{' '}
+                  </a>{' '}
                 </div>
               </div>
-            </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
-              <div className='portfolio-item'>
-                <div className='hover-bg'>
-
-                  <a
-                    data-lightbox-gallery='gallery1'
-                  >
-                    <div className='hover-text'>
-                      <h3>Adipiscing Elit</h3>
-                    </div>
-                    <img
-                      src='img/portfolio/09-small.jpg'
-                      className='img-responsive'
-                      alt='Project Title'
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
+            </div>*/}
           </div>
         </div>
-
       </div>
     </div>
   )

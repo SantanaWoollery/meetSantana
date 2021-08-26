@@ -3,7 +3,7 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
@@ -22,6 +22,22 @@ export const Gallery = (props) => {
                   >
                     <div className='hover-text'>
                       <h4>Lorem Ipsum</h4>
+                      <a
+                  href='#features'
+                  className='btn btn-info btn-md page-scroll'
+                >
+                  Demo
+                </a>{' '}
+                <a
+                  href='#features'
+                  className='btn btn-info btn-md page-scroll'
+                >
+                  <img
+                      src='img\portfolio\icons8-github-24.png'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />Code 
+                </a>{' '}
                     </div>
                     <img
                       src='img/portfolio/01-small.jpg'
@@ -106,6 +122,7 @@ export const Gallery = (props) => {
                   >
                     <div className='hover-text'>
                       <h4>Adipiscing Elit</h4>
+                      
                     </div>
                     <img
                       src='img/portfolio/05-small.jpg'
@@ -137,7 +154,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
@@ -199,7 +216,7 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
