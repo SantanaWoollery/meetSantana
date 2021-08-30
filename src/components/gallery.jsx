@@ -5,8 +5,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Projects</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Here are a few of my current projects.
           </p>
         </div>
         <div className='row'>
@@ -16,31 +15,38 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h3>QuizIt - React Native App</h3>
                       <a
-                  href='#features'
-                  className='btn btn-info btn-md page-scroll'
-                >
-                  Demo
-                </a>{' '}
-                <a
-                  href='#features'
-                  className='btn btn-info btn-md page-scroll'
-                >
-                  <img
-                      src='img\portfolio\icons8-github-24.png'
-                      className='img-responsive'
-                      alt='Project Title'
-                    />Code 
-                </a>{' '}
+                        href='https://youtu.be/tqOhcK-mjHI'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-globe-24.png'
+                          className='img-responsive'
+                          alt='globe'
+                        />
+                        Demo
+                      </a>{' '}
+                      <a
+                        href='https://github.com/SantanaWoollery/QuizIt'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-github-24.png'
+                          className='img-responsive'
+                          
+                        />
+                        Code
+                      </a>{' '}
                     </div>
                     <img
-                      src='img/portfolio/01-small.jpg'
+                      src='img\portfolio\QuizIt.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -53,15 +59,38 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/02-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h3>J Mercer Marketing - React App</h3>
+                      <a
+                        href='https://jmercermarketing.netlify.app'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-globe-24.png'
+                          className='img-responsive'
+                          alt='globe'
+                        />
+                        Demo
+                      </a>{' '}
+                      <a
+                        href='https://github.com/SantanaWoollery/JMercer-Project'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-github-24.png'
+                          className='img-responsive'
+                          
+                        />
+                        Code
+                      </a>{' '}
                     </div>
                     <img
-                      src='img/portfolio/02-small.jpg'
+                      src='img\portfolio\J Mercer Marketing.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -74,15 +103,25 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/03-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h3>nucampsite Back End - React App</h3>
+                      <a
+                        href='https://github.com/SantanaWoollery/nucampsiteServer/'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-github-24.png'
+                          className='img-responsive'
+                          
+                        />
+                        Code
+                      </a>{' '}
                     </div>
                     <img
-                      src='img/portfolio/03-small.jpg'
+                      src='img\portfolio\backEnd.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -95,15 +134,38 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/04-large.jpg'
-                    title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h3>meetSantana - React App</h3>
+                      <a
+                        href='https://meetsantana.netlify.app'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-globe-24.png'
+                          className='img-responsive'
+                          alt='globe'
+                        />
+                        Demo
+                      </a>{' '}
+                      <a
+                        href='https://github.com/SantanaWoollery/meetSantana'
+                        className='btn btn-info btn-md page-scroll'
+                      >
+                        <img
+                          class='left'
+                          src='img\portfolio\icons8-github-24.png'
+                          className='img-responsive'
+                          
+                        />
+                        Code
+                      </a>{' '}
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src='img\portfolio\meetSantana.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -111,7 +173,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
@@ -121,7 +183,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h3>Adipiscing Elit</h3>
                       
                     </div>
                     <img
@@ -143,7 +205,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h3>Dolor Sit</h3>
                     </div>
                     <img
                       src='img/portfolio/06-small.jpg'
@@ -154,7 +216,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
@@ -164,7 +226,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h3>Dolor Sit</h3>
                     </div>
                     <img
                       src='img/portfolio/07-small.jpg'
@@ -185,7 +247,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h3>Lorem Ipsum</h3>
                     </div>
                     <img
                       src='img/portfolio/08-small.jpg'
@@ -206,7 +268,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h3>Adipiscing Elit</h3>
                     </div>
                     <img
                       src='img/portfolio/09-small.jpg'

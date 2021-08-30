@@ -12,7 +12,9 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='#features'
+                  href='img\Woollery Resume.pdf'
+                  title='Project Title'
+                  data-lightbox-gallery='gallery1'
                   className='btn btn-info btn-lg page-scroll'
                 >
                   See My Résumé

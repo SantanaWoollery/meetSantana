@@ -335,6 +335,9 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
+#portfolio p {
+  color: #413f6c;
+  }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
