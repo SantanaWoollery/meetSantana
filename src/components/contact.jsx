@@ -6,6 +6,8 @@ const initialState = {
   email: '',
   message: '',
 }
+
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState)
 
@@ -20,7 +22,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'gmail', 'template_r5qtbka', e.target, 'user_gKBNYayGAP7HefxYyjZBy'
       )
       .then(
         (result) => {
@@ -31,6 +33,7 @@ export const Contact = (props) => {
           console.log(error.text)
         }
       )
+      e.target.reset()
   }
   return (
     <div>

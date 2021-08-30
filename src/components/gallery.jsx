@@ -15,6 +15,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
+                    href='https://www.google.com/'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -28,7 +29,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-globe-24.png'
                           className='img-responsive'
-                          alt='globe'
+                          alt='globe logo'
                         />
                         Demo
                       </a>{' '}
@@ -40,6 +41,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-github-24.png'
                           className='img-responsive'
+                          alt='github logo'
                           
                         />
                         Code
@@ -48,7 +50,7 @@ export const Gallery = (props) => {
                     <img
                       src='img\portfolio\QuizIt.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='QuizIt App'
                     />{' '}
                   </a>{' '}
                 </div>
@@ -59,6 +61,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
+                  href='https://www.google.com/'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -72,7 +75,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-globe-24.png'
                           className='img-responsive'
-                          alt='globe'
+                          alt='globe logo'
                         />
                         Demo
                       </a>{' '}
@@ -84,6 +87,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-github-24.png'
                           className='img-responsive'
+                          alt='github logo'
                           
                         />
                         Code
@@ -92,7 +96,7 @@ export const Gallery = (props) => {
                     <img
                       src='img\portfolio\J Mercer Marketing.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='J Mercer Marketing screenshot'
                     />{' '}
                   </a>{' '}
                 </div>
@@ -103,6 +107,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
+                  href='https://www.google.com/'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -115,6 +120,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-github-24.png'
                           className='img-responsive'
+                          alt='github logo'
                           
                         />
                         Code
@@ -123,7 +129,7 @@ export const Gallery = (props) => {
                     <img
                       src='img\portfolio\backEnd.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='backEnd Project screenshot'
                     />{' '}
                   </a>{' '}
                 </div>
@@ -134,6 +140,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
+                  href='https://www.google.com/'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
@@ -147,7 +154,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-globe-24.png'
                           className='img-responsive'
-                          alt='globe'
+                          alt='globe logo'
                         />
                         Demo
                       </a>{' '}
@@ -159,7 +166,7 @@ export const Gallery = (props) => {
                           class='left'
                           src='img\portfolio\icons8-github-24.png'
                           className='img-responsive'
-                          
+                          alt='github logo'
                         />
                         Code
                       </a>{' '}
@@ -167,7 +174,7 @@ export const Gallery = (props) => {
                     <img
                       src='img\portfolio\meetSantana.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='meetsantana project screenshot'
                     />{' '}
                   </a>{' '}
                 </div>

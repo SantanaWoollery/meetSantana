@@ -1,5 +1,5 @@
 {
-  "name": "landingpage-react-template",
+  "name": "meetsantana",
   "private": true,
   "dependencies": {
     "@babel/eslint-parser": "^7.15.0",
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
+    "chokidar": "^3.5.2",
     "emailjs": "^3.5.0",
     "emailjs-com": "^2.6.4",
     "eslint-config-react-app": "^6.0.0",
@@ -18,6 +19,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-use-state": "^1.1.0",
     "react-scripts": "^4.0.2",
     "smooth-scroll": "^16.1.3"
   },
