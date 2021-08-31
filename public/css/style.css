@@ -389,7 +389,7 @@ header .intro-text {
   width: 100%;
   padding: 100px 0 60px;
   background: url(../img/contact-bg.jpg) center center no-repeat;
-  color: rgba(255, 255, 255, 0.75);
+  color: #413f6c;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -403,7 +403,7 @@ header .intro-text {
   font-weight: 500;
 }
 #contact h2 {
-  color: #fff;
+  color: #413f6c;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -418,7 +418,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #413f6c;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -432,7 +432,7 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
-  background: transparent;
+  background: #413f6c;
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
@@ -484,7 +484,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #413f6c;
   margin-bottom: 10px;
   display: block;
 }
@@ -521,7 +521,7 @@ label {
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: #413f6c;
   font-size: 14px;
 }
 #footer a {
