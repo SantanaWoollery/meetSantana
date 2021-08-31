@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Lato", sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -20,7 +20,7 @@ h2 {
   color: #413f6c;
 }
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 20px;
   font-weight: 600;
   color: #413f6c;
@@ -36,6 +36,7 @@ h5 {
 }
 p {
   font-size: 15px;
+  font-family: 'Comfortaa', cursive;
 }
 p.intro {
   margin: 12px 0 0;
@@ -87,7 +88,7 @@ hr {
   
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #555;
   font-size: 15px;
   font-weight: 400;
@@ -161,7 +162,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Lato", sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -442,7 +443,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: 'Comfortaa', cursive;
   float: left;
 }
 #contact .form-control {
