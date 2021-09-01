@@ -15,7 +15,7 @@ export const Services = (props) => {
               <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\Full Stack.jpg'
+                    href='img\certificates\Full Stack.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -36,7 +36,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\Back End.jpg'
+                    href='img\certificates\Back End.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -57,7 +57,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\Front End.jpg'
+                    href='img\certificates\Front End.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -78,7 +78,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\React Native.jpg'
+                    href='img\certificates\React Native.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -99,7 +99,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\React.jpg'
+                    href='img\certificates\React.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -121,7 +121,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\Bootstrap.jpg'
+                    href='img\certificates\Bootstrap.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >
@@ -142,7 +142,7 @@ export const Services = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img\certificates\Fundamentals.jpg'
+                    href='img\certificates\Fundamentals.jpg' target='_blank' rel='noreferrer'
                     
                     data-lightbox-gallery='gallery1'
                   >

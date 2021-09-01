@@ -15,13 +15,13 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='https://www.google.com/'
+                    href='#blank'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
                       <h3>QuizIt - React Native App</h3>
                       <a
-                        href='https://youtu.be/tqOhcK-mjHI'
+                        href='https://youtu.be/tqOhcK-mjHI' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         
@@ -34,7 +34,7 @@ export const Gallery = (props) => {
                         Demo
                       </a>{' '}
                       <a
-                        href='https://github.com/SantanaWoollery/QuizIt'
+                        href='https://github.com/SantanaWoollery/QuizIt' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         <img
@@ -61,13 +61,13 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                  href='https://www.google.com/'
+                  href='#blank'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
                       <h3>J Mercer Marketing - React App</h3>
                       <a
-                        href='https://jmercermarketing.netlify.app'
+                        href='https://jmercermarketing.netlify.app' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         
@@ -80,7 +80,7 @@ export const Gallery = (props) => {
                         Demo
                       </a>{' '}
                       <a
-                        href='https://github.com/SantanaWoollery/JMercer-Project'
+                        href='https://github.com/SantanaWoollery/JMercer-Project' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         <img
@@ -107,13 +107,13 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                  href='https://www.google.com/'
+                  href='#blank'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
                       <h3>nucampsite Back End - React App</h3>
                       <a
-                        href='https://github.com/SantanaWoollery/nucampsiteServer/'
+                        href='https://github.com/SantanaWoollery/nucampsiteServer/' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         <img
@@ -140,13 +140,13 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                  href='https://www.google.com/'
+                  href='#blank'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
                       <h3>meetSantana - React App</h3>
                       <a
-                        href='https://meetsantana.netlify.app'
+                        href='https://meetsantana.netlify.app' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         
@@ -159,7 +159,7 @@ export const Gallery = (props) => {
                         Demo
                       </a>{' '}
                       <a
-                        href='https://github.com/SantanaWoollery/meetSantana'
+                        href='https://github.com/SantanaWoollery/meetSantana' target='_blank' rel='noreferrer'
                         className='btn btn-info btn-md page-scroll'
                       >
                         <img

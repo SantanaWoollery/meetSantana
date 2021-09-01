@@ -130,12 +130,12 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.linkedin : '/'}>
+                    <a href={props.data ? props.data.linkedin : '/'} target='_blank' rel='noreferrer'>
                       <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.github : '/'}>
+                    <a href={props.data ? props.data.github : '/'} target='_blank' rel='noreferrer'>
                       <i className='fa fa-github'></i>
                     </a>
                   </li>
@@ -149,7 +149,7 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             Made with 🧡 by Santana. Connect with me on {' '}
-            <a href='https://linkedin.com/in/santana-woollery/' rel='nofollow'>
+            <a href='https://linkedin.com/in/santana-woollery/' target='_blank' rel='noreferrer'>
               LinkedIn.
             </a>
           </p>
