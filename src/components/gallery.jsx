@@ -22,7 +22,7 @@ export const Gallery = (props) => {
                       <h3>QuizIt - React Native App</h3>
                       <a
                         href='https://youtu.be/tqOhcK-mjHI' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project Video'
                       >
                         
                         <img
@@ -31,11 +31,11 @@ export const Gallery = (props) => {
                           className='img-responsive'
                           alt='globe logo'
                         />
-                        Demo
+                        
                       </a>{' '}
                       <a
                         href='https://github.com/SantanaWoollery/QuizIt' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project Repository'
                       >
                         <img
                           class='left'
@@ -44,7 +44,7 @@ export const Gallery = (props) => {
                           alt='github logo'
                           
                         />
-                        Code
+                        
                       </a>{' '}
                     </div>
                     <img
@@ -68,7 +68,7 @@ export const Gallery = (props) => {
                       <h3>J Mercer Marketing - React App</h3>
                       <a
                         href='https://jmercermarketing.netlify.app' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project'
                       >
                         
                         <img
@@ -77,11 +77,11 @@ export const Gallery = (props) => {
                           className='img-responsive'
                           alt='globe logo'
                         />
-                        Demo
+                        
                       </a>{' '}
                       <a
                         href='https://github.com/SantanaWoollery/JMercer-Project' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project Repository'
                       >
                         <img
                           class='left'
@@ -90,7 +90,7 @@ export const Gallery = (props) => {
                           alt='github logo'
                           
                         />
-                        Code
+                        
                       </a>{' '}
                     </div>
                     <img
@@ -114,7 +114,7 @@ export const Gallery = (props) => {
                       <h3>nucampsite Back End - React App</h3>
                       <a
                         href='https://github.com/SantanaWoollery/nucampsiteServer/' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project Repository'
                       >
                         <img
                           class='left'
@@ -123,7 +123,7 @@ export const Gallery = (props) => {
                           alt='github logo'
                           
                         />
-                        Code
+                        
                       </a>{' '}
                     </div>
                     <img
@@ -147,7 +147,7 @@ export const Gallery = (props) => {
                       <h3>meetSantana - React App</h3>
                       <a
                         href='https://meetsantana.netlify.app' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project'
                       >
                         
                         <img
@@ -156,11 +156,11 @@ export const Gallery = (props) => {
                           className='img-responsive'
                           alt='globe logo'
                         />
-                        Demo
+                        
                       </a>{' '}
                       <a
                         href='https://github.com/SantanaWoollery/meetSantana' target='_blank' rel='noreferrer'
-                        className='btn btn-info btn-md page-scroll'
+                        className='btn btn-info btn-md page-scroll' title='View Project Repository'
                       >
                         <img
                           class='left'
@@ -168,7 +168,7 @@ export const Gallery = (props) => {
                           className='img-responsive'
                           alt='github logo'
                         />
-                        Code
+                        
                       </a>{' '}
                     </div>
                     <img
@@ -180,29 +180,41 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/05-large.jpg'
-                    title='Project Title'
+                    href='#blank'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h3>Adipiscing Elit</h3>
+                      <h3>iOS Booking App</h3>
+                      <a
+                        href='img\iOS_Final_Project_Report.pdf' target='_blank' rel='noreferrer'
+                        className='btn btn-info btn-md page-scroll' title='View Project PDF'
+                      >
+                        <img
+                          
+                          src='img\portfolio\icons8-globe-24.png'
+                          className='img-responsive'
+                          alt='globe logo'
+                          
+                        />
+                        
+                      </a>{' '}
                       
                     </div>
                     <img
-                      src='img/portfolio/05-small.jpg'
+                      src='img\portfolio\iOS.png'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='iOS Booking App screenshot'
                     />{' '}
                   </a>{' '}
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
